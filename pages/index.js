@@ -96,18 +96,14 @@ closeButton.addEventListener("click", function() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt.
             </p>
-            <div className="home-get-started1">
-              <span className="home-text009">Get started</span>
-            </div>
           </header>
           <div className="home-dashboard-preview">
-            <div className="home-outline">
-              <img
-                alt="pastedImage"
-                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
-                loading="lazy"
-                className="home-image"
-              />
+            <iframe
+              src="https://www.youtube.com/embed/DeQkMK5LME4"
+              className="home-iframe"
+            ></iframe>
+            <div className="home-get-started1">
+              <span className="home-text009">Get started</span>
             </div>
           </div>
         </section>
@@ -684,7 +680,7 @@ closeButton.addEventListener("click", function() {
               <img
                 alt="image"
                 src="/playground_assets/e564eaa3c4fab71792794d666a281742-1200w.png"
-                className="home-image1"
+                className="home-image"
               />
             </div>
           </div>
@@ -976,7 +972,7 @@ Here's what the above is doing:
           }
           .home-hero {
             width: 100%;
-            height: 1000px;
+            height: 1123px;
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-oneandhalfunits);
@@ -1137,6 +1133,24 @@ Here's what the above is doing:
             text-align: center;
             line-height: 30px;
           }
+          .home-dashboard-preview {
+            top: 550px;
+            left: 231px;
+            display: flex;
+            position: absolute;
+            align-items: center;
+            border-color: #633df6;
+            border-width: 30px;
+            border-radius: 100px;
+            flex-direction: column;
+            background-color: #633df6;
+          }
+          .home-iframe {
+            width: 705px;
+            height: 349px;
+            margin-top: var(--dl-space-space-unit);
+            margin-bottom: var(--dl-space-space-fourunits);
+          }
           .home-get-started1 {
             color: white;
             cursor: pointer;
@@ -1160,31 +1174,6 @@ Here's what the above is doing:
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
-          }
-          .home-dashboard-preview {
-            top: 650px;
-            display: flex;
-            position: absolute;
-            align-items: center;
-            border-color: #633df6;
-            border-width: 30px;
-            border-radius: 100px;
-            flex-direction: column;
-            background-color: #633df6;
-          }
-          .home-outline {
-            display: flex;
-            align-items: center;
-            border-color: #7350f7;
-            border-width: 20px;
-            border-radius: 70px;
-            flex-direction: column;
-            background-color: #7350f7;
-          }
-          .home-image {
-            width: 900px;
-            z-index: 10;
-            user-select: none;
           }
           .home-features {
             width: 100%;
@@ -2323,7 +2312,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-image1 {
+          .home-image {
             width: 100%;
             object-fit: cover;
             user-select: none;
@@ -2739,9 +2728,6 @@ Here's what the above is doing:
               width: 100%;
               max-width: 1200px;
             }
-            .home-image {
-              width: 100%;
-            }
             .home-features {
               padding-top: 260px;
             }
@@ -3007,21 +2993,14 @@ Here's what the above is doing:
               margin-top: var(--dl-space-space-unit);
               line-height: 24px;
             }
-            .home-get-started1 {
-              margin-top: var(--dl-space-space-twounits);
-            }
             .home-dashboard-preview {
               top: 520px;
               width: 90%;
               border-width: 10px;
               border-radius: 45px;
             }
-            .home-outline {
-              border-width: 10px;
-              border-radius: 35px;
-            }
-            .home-image {
-              width: 100%;
+            .home-get-started1 {
+              margin-top: var(--dl-space-space-twounits);
             }
             .home-features {
               padding-top: 350px;
@@ -3275,7 +3254,7 @@ Here's what the above is doing:
             .home-images {
               justify-content: center;
             }
-            .home-image1 {
+            .home-image {
               width: 100%;
             }
             .home-f-a-q {
@@ -3313,11 +3292,11 @@ Here's what the above is doing:
             .home-text008 {
               color: #eee9fe;
             }
-            .home-get-started1 {
-              width: 100%;
-            }
             .home-dashboard-preview {
               top: 500px;
+            }
+            .home-get-started1 {
+              width: 100%;
             }
             .home-features {
               padding-top: 200px;
