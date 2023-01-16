@@ -39,7 +39,7 @@ const Home = (props) => {
                 <div className="home-left">
                   <img
                     alt="pastedImage"
-                    src="/playground_assets/pastedimage-no9b-1500h.png"
+                    src="/playground_assets/appmn%20%5B2%5D-1200w.png"
                     className="home-logo1"
                   />
                   <div className="home-links1">
@@ -953,10 +953,12 @@ Here's what the above is doing:
           <div className="home-bottom">
             <img
               alt="pastedImage"
-              src="/playground_assets/pastedimage-no9b-1500h.png"
+              src="/playground_assets/appmn%20%5B2%5D-1200w.png"
               className="home-branding"
             />
-            <span className="home-text138">Copyright © Active - 2022</span>
+            <span className="home-text138">
+              Copyright © App meu negócio - 2022
+            </span>
           </div>
         </footer>
       </div>
@@ -1060,7 +1062,8 @@ Here's what the above is doing:
             padding-bottom: 38px;
           }
           .home-logo1 {
-            width: 105px;
+            width: 220px;
+            height: 57px;
             margin-left: var(--dl-space-space-halfunit);
           }
           .home-links1 {
@@ -2678,9 +2681,10 @@ Here's what the above is doing:
             flex-direction: column;
           }
           .home-branding {
-            width: var(--dl-size-size-large);
+            width: auto;
             filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg)
               brightness(103%) contrast(103%);
+            height: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-text138 {
@@ -2939,7 +2943,7 @@ Here's what the above is doing:
               gap: var(--dl-space-space-unit);
             }
             .home-branding {
-              width: var(--dl-size-size-medium);
+              width: 100%;
               margin-bottom: var(--dl-space-space-halfunit);
             }
             .home-text138 {
@@ -3277,6 +3281,9 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
+            .home-branding {
+              width: 100%;
+            }
           }
           @media (max-width: 479px) {
             .home-hero {
@@ -3293,7 +3300,12 @@ Here's what the above is doing:
               color: #eee9fe;
             }
             .home-dashboard-preview {
-              top: 500px;
+              left: 32px;
+              bottom: -307px;
+            }
+            .home-iframe {
+              width: 385px;
+              height: 291px;
             }
             .home-get-started1 {
               width: 100%;
@@ -3355,6 +3367,14 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-halfunit);
+            }
+            .home-branding {
+              width: 100%;
+            }
+            .home-text138 {
+              color: rgb(104, 104, 104);
+              font-size: 12px;
+              line-height: 25px;
             }
           }
         `}
