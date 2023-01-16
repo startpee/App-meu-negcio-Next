@@ -651,7 +651,7 @@ closeButton.addEventListener("click", function() {
           <div className="home-action">
             <div className="home-heading3">
               <span className="home-text093 title">
-                Comece o seu negócio seu medo!
+                Comece o seu negócio sem medo!
               </span>
               <span className="home-text094">
                 Te ajudamos a planejar da forma mais simples 
@@ -1054,10 +1054,10 @@ Here's what the above is doing:
             position: absolute;
             align-items: center;
             border-color: #633df6;
-            border-width: 30px;
+            border-width: 0px;
             border-radius: 100px;
             flex-direction: column;
-            background-color: #633df6;
+            background-color: #775cfc;
           }
           .home-iframe {
             width: 705px;
@@ -3081,6 +3081,7 @@ Here's what the above is doing:
               left: 32px;
               bottom: -307px;
               height: 756px;
+              border-width: 0px;
             }
             .home-iframe {
               width: 385px;
