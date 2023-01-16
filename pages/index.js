@@ -751,8 +751,8 @@ closeButton.addEventListener("click", function() {
               <div className="accordionContent">
                 <span className="home-text115">
                   <span>
-                    Nosso foco está apenas na base de todo negócio o Plano de
-                    negócios 
+                    Nosso foco está apenas na base de todo negócio que é o
+                    business plan
                   </span>
                   <br></br>
                   <span>atualmente oferecemos 3 serviços:</span>
@@ -2234,6 +2234,7 @@ Here's what the above is doing:
           .home-accordion {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
+            height: 505px;
             display: flex;
             max-width: 1200px;
             align-items: center;
