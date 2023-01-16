@@ -350,19 +350,13 @@ closeButton.addEventListener("click", function() {
             <div className="home-heading1">
               <span className="home-text046">How it works</span>
               <span className="home-text047 title">
-                Being social and getting leads has never been easier
+                Nós te ajudamos a começar ou a melhorar o seu negócio em apenas
+                3 passos 
               </span>
             </div>
             <div className="home-category2">
               <div className="home-headng">
-                <span className="home-text048">
-                  1 — Sign up
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
+                <span className="home-text048">1 — Escolher um serviço</span>
                 <span className="home-text049">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -383,7 +377,7 @@ closeButton.addEventListener("click", function() {
             <div className="home-row">
               <div className="home-category3">
                 <div className="home-headng1">
-                  <span className="home-text051">2 — Act</span>
+                  <span className="home-text051">2 — reuinão </span>
                   <span className="home-text052">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -398,7 +392,7 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="home-category4">
                 <div className="home-headng2">
-                  <span className="home-text053">2 — Act</span>
+                  <span className="home-text053">2 — Proposta</span>
                   <span className="home-text054">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -683,9 +677,7 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="home-f-a-q">
           <div className="home-heading4">
-            <span className="home-text101 title">
-              Frequently asked questions
-            </span>
+            <span className="home-text101 title">Perguntas frequentes</span>
             <span className="home-text102">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
@@ -695,7 +687,7 @@ closeButton.addEventListener("click", function() {
             <div data-faq="closed" className="accordionContainer">
               <div className="home-header1">
                 <span className="home-text103">
-                  — What is sit amet, consectetur adipiscing elit, sed do?
+                  — Pra que serve o app meu negócio?
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -708,22 +700,16 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="accordionContent">
                 <span className="home-text104">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  serve para dar um direcionamento de acordo com a realidade do
+                  empreendedor com planejamentos com metodologias que
+                  transformar um pequeno negócio em uma empresa.
                 </span>
               </div>
             </div>
             <div className="accordionContainer">
               <div className="home-header2">
                 <span className="home-text105">
-                  — Why is dolore magna aliqua excepteur sint
+                  — Quanto custa o plano de negócios
                 </span>
                 <svg viewBox="0 0 1024 1024" className="accordionIcon">
                   <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
@@ -731,21 +717,29 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="accordionContent">
                 <span className="home-text106">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  <span>
+                    o preço é de acordo com a realidade da pessoa e modelo de
+                    negócio, na nossa metodologia nós desenvolvemos em 3 fases o
+                    plano de negócios:
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>1- plano para negócio existir</span>
+                  <br></br>
+                  <span>2- o plano para o negócio sobreviver</span>
+                  <br></br>
+                  <span>3- o plano tornar empresa. </span>
+                  <br></br>
                 </span>
               </div>
             </div>
             <div data-faq="closed" className="accordionContainer">
               <div className="home-header3">
-                <span className="home-text107">
+                <span className="home-text115">
                   — Is excepteur sint occaecat cupidatat non proident, sunt in
                   culpa qui officia deserunt mollit anim id est laborum?
                   <span
@@ -759,7 +753,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="home-text108">
+                <span className="home-text116">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -774,7 +768,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div data-faq="closed" className="accordionContainer">
               <div className="home-header4">
-                <span className="home-text109">
+                <span className="home-text117">
                   — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
                   enim ipsam voluptatem quia voluptas sit aspernatur aut odit
                   aut fugit, sed quia consequuntur magni
@@ -789,7 +783,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="home-text110">
+                <span className="home-text118">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -804,7 +798,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div data-faq="closed" className="accordionContainer">
               <div className="home-header5">
-                <span className="home-text111">
+                <span className="home-text119">
                   — Is minim veniam quis nostrud exercitation ullamco laboris
                   nisi ut aliquip ex ea commodo consequat.
                 </span>
@@ -813,7 +807,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="home-text112">
+                <span className="home-text120">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -888,34 +882,34 @@ Here's what the above is doing:
           <div className="home-top">
             <div className="home-right3">
               <div className="home-category5">
-                <span className="home-text113">Solutions</span>
+                <span className="home-text121">Solutions</span>
                 <div className="home-links2">
-                  <span className="home-text114">Responsive Web Design</span>
-                  <span className="home-text115">Responsive Prototypesv</span>
-                  <span className="home-text116">Design to Code</span>
-                  <span className="home-text117">Static Website Builder</span>
-                  <span className="home-text118">Static Website Generator</span>
+                  <span className="home-text122">Responsive Web Design</span>
+                  <span className="home-text123">Responsive Prototypesv</span>
+                  <span className="home-text124">Design to Code</span>
+                  <span className="home-text125">Static Website Builder</span>
+                  <span className="home-text126">Static Website Generator</span>
                 </div>
               </div>
               <div className="home-category6">
-                <span className="home-text119">Company</span>
+                <span className="home-text127">Company</span>
                 <div className="home-links3">
-                  <span className="home-text120">About</span>
-                  <span className="home-text121">Team</span>
-                  <span className="home-text122">News</span>
-                  <span className="home-text123">Partners</span>
-                  <span className="home-text124">Careers</span>
-                  <span className="home-text125">Press &amp; Media</span>
+                  <span className="home-text128">About</span>
+                  <span className="home-text129">Team</span>
+                  <span className="home-text130">News</span>
+                  <span className="home-text131">Partners</span>
+                  <span className="home-text132">Careers</span>
+                  <span className="home-text133">Press &amp; Media</span>
                 </div>
               </div>
               <div className="home-category7">
-                <span className="home-text126">Solutions</span>
+                <span className="home-text134">Solutions</span>
                 <div className="home-links4">
-                  <span className="home-text127">Twitter</span>
-                  <span className="home-text128">Linkedin</span>
-                  <span className="home-text129">Crunchbase</span>
-                  <span className="home-text130">Instagram</span>
-                  <span className="home-text131">Facebook</span>
+                  <span className="home-text135">Twitter</span>
+                  <span className="home-text136">Linkedin</span>
+                  <span className="home-text137">Crunchbase</span>
+                  <span className="home-text138">Instagram</span>
+                  <span className="home-text139">Facebook</span>
                 </div>
               </div>
             </div>
@@ -926,7 +920,7 @@ Here's what the above is doing:
               src="/playground_assets/appmn%20%5B2%5D-1200w.png"
               className="home-branding"
             />
-            <span className="home-text132">
+            <span className="home-text140">
               Copyright © App meu negócio - 2022
             </span>
           </div>
@@ -1772,7 +1766,7 @@ Here's what the above is doing:
             padding-bottom: 0px;
           }
           .home-text053 {
-            color: #ffffff;
+            color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
@@ -2284,6 +2278,7 @@ Here's what the above is doing:
           .home-text102 {
             color: rgb(0, 0, 0);
             width: 100%;
+            display: none;
             max-width: 600px;
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
@@ -2336,14 +2331,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .home-text107 {
+          .home-text115 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .home-text108 {
+          .home-text116 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2353,14 +2348,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .home-text109 {
+          .home-text117 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .home-text110 {
+          .home-text118 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2370,14 +2365,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .home-text111 {
+          .home-text119 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .home-text112 {
+          .home-text120 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2417,7 +2412,7 @@ Here's what the above is doing:
             align-items: stretch;
             flex-direction: column;
           }
-          .home-text113 {
+          .home-text121 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -2430,56 +2425,9 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text114 {
-            color: rgb(196, 196, 196);
-            cursor: pointer;
-            font-size: 14px;
-          }
-          .home-text115 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text116 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text117 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text118 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-category6 {
-            width: 240px;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-text119 {
-            color: rgb(255, 255, 255);
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 700;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-links3 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-text120 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text121 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
           .home-text122 {
             color: rgb(196, 196, 196);
+            cursor: pointer;
             font-size: 14px;
           }
           .home-text123 {
@@ -2494,27 +2442,28 @@ Here's what the above is doing:
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-category7 {
+          .home-text126 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-category6 {
             width: 240px;
             display: flex;
+            align-items: flex-start;
             flex-direction: column;
           }
-          .home-text126 {
+          .home-text127 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-links4 {
+          .home-links3 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
-          }
-          .home-text127 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
           }
           .home-text128 {
             color: rgb(196, 196, 196);
@@ -2529,6 +2478,52 @@ Here's what the above is doing:
             font-size: 14px;
           }
           .home-text131 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text132 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text133 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-category7 {
+            width: 240px;
+            display: flex;
+            flex-direction: column;
+          }
+          .home-text134 {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-links4 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .home-text135 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text136 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text137 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text138 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text139 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
@@ -2548,7 +2543,7 @@ Here's what the above is doing:
             height: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text132 {
+          .home-text140 {
             color: #686868;
             font-size: 14px;
             line-height: 30px;
@@ -2792,7 +2787,7 @@ Here's what the above is doing:
               width: 100%;
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .home-text132 {
+            .home-text140 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -3211,7 +3206,7 @@ Here's what the above is doing:
             .home-branding {
               width: 100%;
             }
-            .home-text132 {
+            .home-text140 {
               color: rgb(104, 104, 104);
               font-size: 12px;
               line-height: 25px;
