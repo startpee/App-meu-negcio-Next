@@ -43,15 +43,15 @@ const Home = (props) => {
                     className="home-logo1"
                   />
                   <div className="home-links1">
-                    <span className="Link">Solutions</span>
-                    <span className="Link">How it works</span>
-                    <span className="Link">Prices</span>
+                    <span className="Link">Soluções</span>
+                    <span className="Link">Fale conosco</span>
+                    <span className="Link">Podcast</span>
                   </div>
                 </div>
                 <div className="home-right">
                   <span className="home-sign-in Link">Sign in</span>
                   <div className="home-get-started">
-                    <span className="home-text006">Get started</span>
+                    <span className="home-text006">Contratar</span>
                   </div>
                   <div id="open-mobile-menu" className="home-burger-menu">
                     <img
@@ -91,10 +91,9 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
           <header className="home-header">
-            <h1 className="home-text007">Take Control of Your Social Media</h1>
+            <h1 className="home-text007">Esteja no controle do seu negócio</h1>
             <p className="home-text008">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt.
+              Gerenciar o próprio negócio se tornou muito mais fácil 
             </p>
           </header>
           <div className="home-dashboard-preview">
@@ -190,9 +189,9 @@ closeButton.addEventListener("click", function() {
         <section className="home-quote-container">
           <div className="home-quote">
             <span className="home-message">
-              “Scale your content, grew lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.”
+              “vai chegar um dia na qual você descobri que Existe infinitas
+              possibilidades que as pessoas não estão enxergando,que só você
+              consegue enxergar”
             </span>
             <div className="home-author">
               <img
@@ -652,7 +651,7 @@ closeButton.addEventListener("click", function() {
           <div className="home-action">
             <div className="home-heading3">
               <span className="home-text093 title">
-                Comece o seu negócio com um  plano!
+                Comece o seu negócio seu medo!
               </span>
               <span className="home-text094">
                 Te ajudamos a planejar da forma mais simples 
@@ -892,7 +891,7 @@ Here's what the above is doing:
             padding-left: var(--dl-space-space-sevenunits);
             padding-right: var(--dl-space-space-sevenunits);
             flex-direction: column;
-            background-color: #5228f5;
+            background-color: #775cfc;
           }
           .home-menu {
             width: 100%;
@@ -992,6 +991,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .home-sign-in {
+            display: none;
             margin-right: 20px;
           }
           .home-get-started {
@@ -1011,7 +1011,7 @@ Here's what the above is doing:
             background-color: #5228f5;
           }
           .home-text006 {
-            color: #ffffff;
+            color: rgb(255, 255, 255);
             font-style: normal;
             font-weight: 600;
           }
@@ -1040,7 +1040,7 @@ Here's what the above is doing:
             line-height: 80px;
           }
           .home-text008 {
-            color: #eee9fe;
+            color: rgb(238, 233, 254);
             font-size: 20px;
             max-width: 600px;
             margin-top: 16px;
@@ -1226,9 +1226,9 @@ Here's what the above is doing:
           }
           .home-message {
             color: rgb(255, 255, 255);
-            font-size: 40px;
+            font-size: 24px;
             max-width: 800px;
-            line-height: 52px;
+            line-height: 31px;
           }
           .home-author {
             width: 800px;
@@ -1760,6 +1760,7 @@ Here's what the above is doing:
           .home-text056 {
             color: #eee9fe;
             width: 600px;
+            display: none;
             text-align: center;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -2501,6 +2502,14 @@ Here's what the above is doing:
               width: 100%;
               max-width: 1200px;
             }
+            .home-dashboard-preview {
+              left: 0px;
+              right: 0px;
+              margin: auto;
+              align-items: center;
+              border-width: 0px;
+              background-color: #775cfc;
+            }
             .home-features {
               padding-top: 260px;
             }
@@ -2711,7 +2720,7 @@ Here's what the above is doing:
               height: 620px;
               position: relative;
               padding-bottom: 180px;
-              background-color: var(--dl-color-template-blue-bg);
+              background-color: #775cfc;
             }
             .home-desktop-navigation {
               padding-left: 0px;
@@ -3047,7 +3056,9 @@ Here's what the above is doing:
           }
           @media (max-width: 479px) {
             .home-hero {
+              height: 892px;
               padding-bottom: 160px;
+              background-color: #775cfc;
             }
             .home-logo {
               margin-left: 0px;
@@ -3059,12 +3070,16 @@ Here's what the above is doing:
             .home-logo1 {
               width: auto;
             }
+            .home-header {
+              height: 203px;
+            }
             .home-text008 {
               color: #eee9fe;
             }
             .home-dashboard-preview {
               left: 32px;
               bottom: -307px;
+              height: 756px;
             }
             .home-iframe {
               width: 385px;
