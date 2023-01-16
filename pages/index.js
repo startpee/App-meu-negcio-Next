@@ -197,12 +197,12 @@ closeButton.addEventListener("click", function() {
             <div className="home-author">
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGdpcmx8ZW58MHx8fHwxNjY0ODA5MjE1&amp;ixlib=rb-1.2.1&amp;w=200"
+                src="/playground_assets/lopj-200w.png"
                 className="home-avatar"
               />
               <span className="home-quote1">
-                <span className="home-text025">—  Peter McPau</span>
-                <span>, Founder and CEO, Active</span>
+                <span className="home-text025">—  Francisco júnior</span>
+                <span>, Fundador CEO, App meu negócio</span>
               </span>
             </div>
           </div>
@@ -652,7 +652,7 @@ closeButton.addEventListener("click", function() {
           <div className="home-action">
             <div className="home-heading3">
               <span className="home-text093 title">
-                Comece o seu negócio com plano!
+                Comece o seu negócio com um  plano!
               </span>
               <span className="home-text094">
                 Te ajudamos a planejar da forma mais simples 
@@ -973,7 +973,7 @@ Here's what the above is doing:
             padding-bottom: 38px;
           }
           .home-logo1 {
-            width: 220px;
+            width: auto;
             height: 57px;
             margin-left: var(--dl-space-space-halfunit);
           }
@@ -2483,7 +2483,7 @@ Here's what the above is doing:
               margin-left: var(--dl-space-space-halfunit);
             }
             .home-logo1 {
-              width: 64px;
+              width: auto;
             }
             .home-links1 {
               display: none;
@@ -2723,6 +2723,9 @@ Here's what the above is doing:
             }
             .home-left {
               margin-left: var(--dl-space-space-unit);
+            }
+            .home-logo1 {
+              width: auto;
             }
             .home-right {
               margin-right: var(--dl-space-space-unit);
@@ -3053,6 +3056,9 @@ Here's what the above is doing:
               align-items: center;
               justify-content: center;
             }
+            .home-logo1 {
+              width: auto;
+            }
             .home-text008 {
               color: #eee9fe;
             }
@@ -3084,6 +3090,14 @@ Here's what the above is doing:
             }
             .home-analyze {
               margin-bottom: 0px;
+            }
+            .home-quote1 {
+              color: rgb(151, 126, 249);
+              font-size: 14px;
+            }
+            .home-text025 {
+              font-style: normal;
+              font-weight: 600;
             }
             .home-statistics {
               height: 500px;
