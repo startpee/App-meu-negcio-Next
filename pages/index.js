@@ -652,15 +652,13 @@ closeButton.addEventListener("click", function() {
           <div className="home-action">
             <div className="home-heading3">
               <span className="home-text093 title">
-                <span>Get leads now </span>
-                <br></br>
-                <span>with Active!</span>
+                Comece o seu negócio com plano!
               </span>
-              <span className="home-text097">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <span className="home-text094">
+                Te ajudamos a planejar da forma mais simples 
               </span>
               <div className="home-get-started8 template-button">
-                <span className="home-text098">
+                <span className="home-text095">
                   <span>Start free</span>
                   <br></br>
                 </span>
@@ -677,8 +675,8 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="home-f-a-q">
           <div className="home-heading4">
-            <span className="home-text101 title">Perguntas frequentes</span>
-            <span className="home-text102">
+            <span className="home-text098 title">Perguntas frequentes</span>
+            <span className="home-text099">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
             </span>
@@ -686,7 +684,7 @@ closeButton.addEventListener("click", function() {
           <div className="home-accordion">
             <div data-faq="closed" className="accordionContainer">
               <div className="home-header1">
-                <span className="home-text103">
+                <span className="home-text100">
                   — Pra que serve o app meu negócio?
                   <span
                     dangerouslySetInnerHTML={{
@@ -699,7 +697,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="home-text104">
+                <span className="home-text101">
                   serve para dar um direcionamento de acordo com a realidade do
                   empreendedor com planejamentos com metodologias que
                   transformar um pequeno negócio em uma empresa.
@@ -708,7 +706,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="accordionContainer">
               <div className="home-header2">
-                <span className="home-text105">
+                <span className="home-text102">
                   — Quanto custa o plano de negócios?
                 </span>
                 <svg viewBox="0 0 1024 1024" className="accordionIcon">
@@ -716,7 +714,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="home-text106">
+                <span className="home-text103">
                   <span>o preço é de acordo com a realidade da pessoa.</span>
                   <br></br>
                   <span>
@@ -739,7 +737,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div data-faq="closed" className="accordionContainer">
               <div className="home-header3">
-                <span className="home-text117">
+                <span className="home-text114">
                   — quais serviços o app oferece?
                   <span
                     dangerouslySetInnerHTML={{
@@ -752,7 +750,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="home-text118">
+                <span className="home-text115">
                   <span>
                     Nosso foco está apenas na base de todo negócio o Plano de
                     negócios 
@@ -831,34 +829,34 @@ Here's what the above is doing:
           <div className="home-top">
             <div className="home-right3">
               <div className="home-category5">
-                <span className="home-text129">Solutions</span>
+                <span className="home-text126">Soluções </span>
                 <div className="home-links2">
-                  <span className="home-text130">Responsive Web Design</span>
-                  <span className="home-text131">Responsive Prototypesv</span>
-                  <span className="home-text132">Design to Code</span>
-                  <span className="home-text133">Static Website Builder</span>
-                  <span className="home-text134">Static Website Generator</span>
+                  <span className="home-text127">Plano de negócios</span>
+                  <span className="home-text128">Vendas online</span>
+                  <span className="home-text129">Marketing</span>
+                  <span className="home-text130">Instagram shop</span>
+                  <span className="home-text131">Automatizar</span>
                 </div>
               </div>
               <div className="home-category6">
-                <span className="home-text135">Company</span>
+                <span className="home-text132">Empresa</span>
                 <div className="home-links3">
-                  <span className="home-text136">About</span>
-                  <span className="home-text137">Team</span>
-                  <span className="home-text138">News</span>
-                  <span className="home-text139">Partners</span>
-                  <span className="home-text140">Careers</span>
-                  <span className="home-text141">Press &amp; Media</span>
+                  <span className="home-text133">Sobre</span>
+                  <span className="home-text134">Aplicativo</span>
+                  <span className="home-text135">Reclame aqui</span>
+                  <span className="home-text136">Localização</span>
+                  <span className="home-text137">trabalhe aqui</span>
+                  <span className="home-text138">Fale conosco</span>
                 </div>
               </div>
               <div className="home-category7">
-                <span className="home-text142">Solutions</span>
+                <span className="home-text139">Conteúdos </span>
                 <div className="home-links4">
-                  <span className="home-text143">Twitter</span>
-                  <span className="home-text144">Linkedin</span>
-                  <span className="home-text145">Crunchbase</span>
-                  <span className="home-text146">Instagram</span>
-                  <span className="home-text147">Facebook</span>
+                  <span className="home-text140">Youtube</span>
+                  <span className="home-text141">Linkedin</span>
+                  <span className="home-text142">Pinterest</span>
+                  <span className="home-text143">Instagram</span>
+                  <span className="home-text144">Facebook</span>
                 </div>
               </div>
             </div>
@@ -869,7 +867,7 @@ Here's what the above is doing:
               src="/playground_assets/appmn%20%5B2%5D-1200w.png"
               className="home-branding"
             />
-            <span className="home-text148">
+            <span className="home-text145">
               Copyright © App meu negócio - 2022
             </span>
           </div>
@@ -2180,15 +2178,15 @@ Here's what the above is doing:
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .home-text097 {
-            color: #eee9fe;
+          .home-text094 {
+            color: rgb(238, 233, 254);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
           }
           .home-get-started8 {
             margin-bottom: 0px;
           }
-          .home-text098 {
+          .home-text095 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -2221,10 +2219,10 @@ Here's what the above is doing:
             user-select: none;
             flex-direction: column;
           }
-          .home-text101 {
+          .home-text098 {
             text-align: center;
           }
-          .home-text102 {
+          .home-text099 {
             color: rgb(0, 0, 0);
             width: 100%;
             display: none;
@@ -2246,14 +2244,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .home-text103 {
+          .home-text100 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .home-text104 {
+          .home-text101 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2263,14 +2261,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .home-text105 {
+          .home-text102 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .home-text106 {
+          .home-text103 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2280,14 +2278,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .home-text117 {
+          .home-text114 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .home-text118 {
+          .home-text115 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2327,7 +2325,7 @@ Here's what the above is doing:
             align-items: stretch;
             flex-direction: column;
           }
-          .home-text129 {
+          .home-text126 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -2340,24 +2338,24 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text130 {
+          .home-text127 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
           }
+          .home-text128 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text129 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text130 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
           .home-text131 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text132 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text133 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text134 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
@@ -2367,7 +2365,7 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text135 {
+          .home-text132 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -2379,6 +2377,18 @@ Here's what the above is doing:
             display: flex;
             align-items: flex-start;
             flex-direction: column;
+          }
+          .home-text133 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text134 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text135 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
           }
           .home-text136 {
             color: rgb(196, 196, 196);
@@ -2392,24 +2402,12 @@ Here's what the above is doing:
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-text139 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text140 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text141 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
           .home-category7 {
             width: 240px;
             display: flex;
             flex-direction: column;
           }
-          .home-text142 {
+          .home-text139 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -2422,23 +2420,23 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
+          .home-text140 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text141 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-text142 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
           .home-text143 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
           .home-text144 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text145 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text146 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text147 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
@@ -2458,7 +2456,7 @@ Here's what the above is doing:
             height: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text148 {
+          .home-text145 {
             color: #686868;
             font-size: 14px;
             line-height: 30px;
@@ -2702,7 +2700,7 @@ Here's what the above is doing:
               width: 100%;
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .home-text148 {
+            .home-text145 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -3005,7 +3003,7 @@ Here's what the above is doing:
               font-size: 28px;
               text-align: left;
             }
-            .home-text098 {
+            .home-text095 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
@@ -3023,16 +3021,16 @@ Here's what the above is doing:
             .home-heading4 {
               width: 100%;
             }
-            .home-text101 {
+            .home-text098 {
               font-size: 36px;
               line-height: 36px;
             }
-            .home-text102 {
+            .home-text099 {
               width: 100%;
               max-width: 600p;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text106 {
+            .home-text103 {
               line-height: 24px;
             }
             .home-footer {
@@ -3117,7 +3115,7 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text106 {
+            .home-text103 {
               line-height: 24px;
             }
             .home-footer {
@@ -3127,7 +3125,7 @@ Here's what the above is doing:
             .home-branding {
               width: 100%;
             }
-            .home-text148 {
+            .home-text145 {
               color: rgb(104, 104, 104);
               font-size: 12px;
               line-height: 25px;
