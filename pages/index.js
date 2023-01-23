@@ -731,19 +731,34 @@ Here's what the above is doing:
                   <span className="home-text128">Sobre</span>
                   <span className="home-text129">Aplicativo</span>
                   <span className="home-text130">Reclame aqui</span>
-                  <span className="home-text131">Localização</span>
-                  <span className="home-text132">trabalhe aqui</span>
-                  <span className="home-text133">Fale conosco</span>
+                  <a
+                    href="https://www.reclameaqui.com.br/empresa/startpee/"
+                    className="home-link2"
+                  >
+                    Localização
+                  </a>
+                  <span className="home-text131">trabalhe aqui</span>
+                  <span className="home-text132">Fale conosco</span>
                 </div>
               </div>
               <div className="home-category7">
-                <span className="home-text134">Conteúdos </span>
+                <span className="home-text133">Conteúdos </span>
                 <div className="home-links4">
-                  <span className="home-text135">Youtube</span>
-                  <span className="home-text136">Linkedin</span>
-                  <span className="home-text137">Pinterest</span>
-                  <span className="home-text138">Instagram</span>
-                  <span className="home-text139">Facebook</span>
+                  <span className="home-text134">Youtube</span>
+                  <span className="home-text135">Linkedin</span>
+                  <a
+                    href="https://www.linkedin.com/company/startpee"
+                    className="home-link3"
+                  >
+                    Pinterest
+                  </a>
+                  <span className="home-text136">Instagram</span>
+                  <a
+                    href="https://www.instagram.com/appmeunegocio/"
+                    className="home-link4"
+                  >
+                    Facebook
+                  </a>
                 </div>
               </div>
             </div>
@@ -754,7 +769,7 @@ Here's what the above is doing:
               src="/playground_assets/startpee-1200w.png"
               className="home-branding"
             />
-            <span className="home-text140">
+            <span className="home-text137">
               CNPJ 20.369.543/0001-98 São Paulo- SP
               <span
                 dangerouslySetInnerHTML={{
@@ -762,7 +777,7 @@ Here's what the above is doing:
                 }}
               />
             </span>
-            <span className="home-text141">Copyright © Startpee- 2023</span>
+            <span className="home-text138">Copyright © Startpee- 2023</span>
           </div>
         </footer>
       </div>
@@ -2069,6 +2084,11 @@ Here's what the above is doing:
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
+          .home-link2 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+            text-decoration: none;
+          }
           .home-text131 {
             color: rgb(196, 196, 196);
             font-size: 14px;
@@ -2077,16 +2097,12 @@ Here's what the above is doing:
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-text133 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
           .home-category7 {
             width: 240px;
             display: flex;
             flex-direction: column;
           }
-          .home-text134 {
+          .home-text133 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -2099,25 +2115,27 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
+          .home-text134 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
           .home-text135 {
             color: rgb(196, 196, 196);
             font-size: 14px;
+          }
+          .home-link3 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+            text-decoration: none;
           }
           .home-text136 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-text137 {
+          .home-link4 {
             color: rgb(196, 196, 196);
             font-size: 14px;
-          }
-          .home-text138 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text139 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
+            text-decoration: none;
           }
           .home-bottom {
             width: 100%;
@@ -2135,12 +2153,12 @@ Here's what the above is doing:
             height: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text140 {
+          .home-text137 {
             color: rgb(104, 104, 104);
             font-size: 14px;
             line-height: 30px;
           }
-          .home-text141 {
+          .home-text138 {
             color: rgb(104, 104, 104);
             font-size: 14px;
             line-height: 30px;
@@ -2393,12 +2411,12 @@ Here's what the above is doing:
               width: 100%;
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .home-text140 {
+            .home-text137 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
             }
-            .home-text141 {
+            .home-text138 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -2841,12 +2859,12 @@ Here's what the above is doing:
             .home-branding {
               width: 100%;
             }
-            .home-text140 {
+            .home-text137 {
               color: rgb(104, 104, 104);
               font-size: 12px;
               line-height: 25px;
             }
-            .home-text141 {
+            .home-text138 {
               color: rgb(104, 104, 104);
               font-size: 12px;
               line-height: 25px;
