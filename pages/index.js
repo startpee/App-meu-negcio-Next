@@ -403,7 +403,7 @@ closeButton.addEventListener("click", function() {
                 </div>
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/interview-400h.png"
+                  src="/playground_assets/interview-400w.png"
                   className="home-pasted-image1"
                 />
               </div>
@@ -1502,7 +1502,9 @@ Here's what the above is doing:
           .home-headng {
             flex: 1;
             display: flex;
-            align-items: flex-start;
+            align-self: center;
+            align-items: center;
+            margin-left: var(--dl-space-space-threeunits);
             padding-top: var(--dl-space-space-threeunits);
             margin-right: var(--dl-space-space-fourunits);
             flex-direction: column;
@@ -1543,6 +1545,7 @@ Here's what the above is doing:
             flex: 0 0 auto;
             width: 328px;
             height: 330px;
+            display: none;
             object-fit: contain;
           }
           .home-row {
@@ -1585,9 +1588,10 @@ Here's what the above is doing:
             line-height: 24px;
           }
           .home-pasted-image1 {
-            width: 349px;
-            height: 388px;
+            width: 305px;
+            height: 299px;
             align-self: center;
+            margin-bottom: var(--dl-space-space-twounits);
           }
           .home-category4 {
             flex: 1;
@@ -1623,10 +1627,11 @@ Here's what the above is doing:
             line-height: 24px;
           }
           .home-pasted-image2 {
-            width: 302px;
-            height: 378px;
+            width: 246px;
+            height: 318px;
             align-self: center;
             object-fit: contain;
+            margin-bottom: var(--dl-space-space-twounits);
           }
           .home-pricing {
             width: 100%;
@@ -2794,8 +2799,11 @@ Here's what the above is doing:
               color: #eee9fe;
             }
             .home-iframe {
+              right: -328px;
               width: 385px;
+              bottom: -90px;
               height: 291px;
+              position: static;
             }
             .home-features {
               padding-top: 200px;
