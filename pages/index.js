@@ -118,15 +118,10 @@ closeButton.addEventListener("click", function() {
           </header>
           <iframe
             src="https://www.youtube.com/embed/tk6ZiAca-8Y"
+            allowFullScreen
             className="home-iframe"
           ></iframe>
-          <div className="home-dashboard-preview"></div>
         </section>
-        <div className="home-div">
-          <DangerousHTML
-            html={`<storifyme-collection url="https://stories.storifyme.com/widgets/g-francisco-junior-70482/widget/custom/6913"></storifyme-collection>`}
-          ></DangerousHTML>
-        </div>
         <section className="home-features">
           <div className="home-title">
             <span className="home-text006">
@@ -207,6 +202,11 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
+        <div className="home-div">
+          <DangerousHTML
+            html={`<storifyme-collection url="https://stories.storifyme.com/widgets/g-francisco-junior-70482/widget/custom/6913"></storifyme-collection>`}
+          ></DangerousHTML>
+        </div>
         <section className="home-quote-container">
           <div className="home-quote">
             <span className="home-message">
@@ -977,27 +977,10 @@ Here's what the above is doing:
             line-height: 30px;
           }
           .home-iframe {
-            width: 705px;
+            width: 618px;
             height: 349px;
             margin-top: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-fourunits);
-          }
-          .home-dashboard-preview {
-            top: 550px;
-            left: 231px;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            position: absolute;
-            align-items: center;
-            border-color: #633df6;
-            border-width: 0px;
-            border-radius: 100px;
-            flex-direction: column;
-            background-color: #775cfc;
-          }
-          .home-div {
-            width: 100%;
-            height: 100%;
           }
           .home-features {
             width: 100%;
@@ -1114,6 +1097,10 @@ Here's what the above is doing:
           }
           .home-text020 {
             line-height: 24px;
+          }
+          .home-div {
+            width: 100%;
+            height: 100%;
           }
           .home-quote-container {
             width: 100%;
@@ -2230,13 +2217,9 @@ Here's what the above is doing:
               width: 100%;
               max-width: 1200px;
             }
-            .home-dashboard-preview {
-              left: 0px;
-              right: 0px;
-              margin: auto;
-              align-items: center;
-              border-width: 0px;
-              background-color: #775cfc;
+            .home-iframe {
+              width: 621px;
+              height: 347px;
             }
             .home-features {
               padding-top: 260px;
@@ -2497,11 +2480,14 @@ Here's what the above is doing:
               margin-top: var(--dl-space-space-unit);
               line-height: 24px;
             }
-            .home-dashboard-preview {
-              top: 520px;
-              width: 90%;
-              border-width: 10px;
-              border-radius: 45px;
+            .home-iframe {
+              right: 205px;
+              width: 347px;
+              bottom: -41px;
+              height: 242px;
+              position: absolute;
+              padding-top: 0px;
+              padding-bottom: 0px;
             }
             .home-features {
               padding-top: 350px;
@@ -2810,14 +2796,6 @@ Here's what the above is doing:
             .home-iframe {
               width: 385px;
               height: 291px;
-            }
-            .home-dashboard-preview {
-              left: 32px;
-              bottom: -307px;
-              height: 564px;
-              display: none;
-              border-width: 0px;
-              padding-bottom: 118px;
             }
             .home-features {
               padding-top: 200px;
