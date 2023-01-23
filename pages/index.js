@@ -1867,7 +1867,7 @@ Here's what the above is doing:
           }
           .home-action-bar {
             width: 100%;
-            display: flex;
+            display: none;
             padding: 120px;
             align-items: center;
             flex-direction: column;
