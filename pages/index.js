@@ -2688,12 +2688,14 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-fourunits);
             }
             .home-card {
+              align-items: center;
               padding-bottom: var(--dl-space-space-twounits);
             }
             .home-text058 {
               font-size: 28px;
             }
             .home-card1 {
+              align-items: center;
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
@@ -2703,6 +2705,7 @@ Here's what the above is doing:
               font-size: 28px;
             }
             .home-card2 {
+              align-items: center;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
