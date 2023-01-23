@@ -427,7 +427,7 @@ closeButton.addEventListener("click", function() {
                 <span className="home-text055">
                   <span className="home-text056">Plataformas de vendas</span>
                   <br></br>
-                  <span>loja virtual </span>
+                  <span>loja virtual do zero</span>
                   <br></br>
                 </span>
                 <div className="home-get-started4 template-button">
@@ -437,32 +437,24 @@ closeButton.addEventListener("click", function() {
               <div className="home-card1">
                 <span className="home-text061">Plano de negócios</span>
                 <span className="home-text062">
-                  <span>Todo negócio existe 3 fases</span>
-                  <br></br>
-                  <br></br>
-                  <span>1-existir ( ainda não tem lucro)</span>
-                  <br></br>
-                  <span>2-Sobreviver ( apenas pagar conta)</span>
-                  <br></br>
-                  <span>3- Crescer ( funciona sem o dono)</span>
-                  <br></br>
+                  <span>Planejamento para Começar ou melhorar</span>
                   <br></br>
                 </span>
                 <div className="home-get-started5 template-button">
-                  <span className="home-text073">
+                  <span className="home-text065">
                     <span>Saiba mais</span>
                     <br></br>
                   </span>
                 </div>
               </div>
               <div className="home-card2">
-                <span className="home-text076">Marketing</span>
-                <span className="home-text077">
+                <span className="home-text068">Marketing</span>
+                <span className="home-text069">
                   <span>Planejamento, Midia , Gestão</span>
                   <br></br>
                 </span>
                 <div className="home-get-started6 template-button">
-                  <span className="home-text080">
+                  <span className="home-text072">
                     <span>Saiba mais</span>
                     <br></br>
                   </span>
@@ -473,8 +465,8 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="home-testimonals">
           <div className="home-left3">
-            <span className="home-text083">Testimonals</span>
-            <span className="home-text084 title">
+            <span className="home-text075">Testimonals</span>
+            <span className="home-text076 title">
               What people say about Active
             </span>
           </div>
@@ -530,7 +522,7 @@ closeButton.addEventListener("click", function() {
               ></Testimonal>
             </div>
           </div>
-          <span className="home-text085">
+          <span className="home-text077">
             <span>Show more</span>
             <br></br>
           </span>
@@ -538,14 +530,14 @@ closeButton.addEventListener("click", function() {
         <section className="home-action-bar">
           <div className="home-action">
             <div className="home-heading3">
-              <span className="home-text088 title">
+              <span className="home-text080 title">
                 Comece o seu negócio sem medo!
               </span>
-              <span className="home-text089">
+              <span className="home-text081">
                 Te ajudamos a planejar da forma mais simples 
               </span>
               <div className="home-get-started7 template-button">
-                <span className="home-text090">
+                <span className="home-text082">
                   <span>Acessar</span>
                   <br></br>
                 </span>
@@ -562,8 +554,8 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="home-f-a-q">
           <div className="home-heading4">
-            <span className="home-text093 title">Perguntas frequentes</span>
-            <span className="home-text094">
+            <span className="home-text085 title">Perguntas frequentes</span>
+            <span className="home-text086">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
             </span>
@@ -571,7 +563,7 @@ closeButton.addEventListener("click", function() {
           <div className="home-accordion">
             <div data-faq="closed" className="accordionContainer">
               <div className="home-header1">
-                <span className="home-text095">
+                <span className="home-text087">
                   — Quanto custa o serviço ?
                   <span
                     dangerouslySetInnerHTML={{
@@ -584,7 +576,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="home-text096">
+                <span className="home-text088">
                   serve para dar um direcionamento de acordo com a realidade do
                   empreendedor com planejamentos com metodologias que
                   transformar um pequeno negócio em uma empresa.
@@ -593,7 +585,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="accordionContainer">
               <div className="home-header2">
-                <span className="home-text097">
+                <span className="home-text089">
                   — Quanto custa o plano de negócios?
                 </span>
                 <svg viewBox="0 0 1024 1024" className="accordionIcon">
@@ -601,7 +593,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="home-text098">
+                <span className="home-text090">
                   <span>o preço é de acordo com a realidade da pessoa.</span>
                   <br></br>
                   <span>
@@ -624,7 +616,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div data-faq="closed" className="accordionContainer">
               <div className="home-header3">
-                <span className="home-text109">
+                <span className="home-text101">
                   — quais serviços oferece?
                   <span
                     dangerouslySetInnerHTML={{
@@ -637,7 +629,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="home-text110">
+                <span className="home-text102">
                   <span>
                     Nosso foco está apenas na base de todo negócio que é o
                     business plan
@@ -716,49 +708,54 @@ Here's what the above is doing:
           <div className="home-top">
             <div className="home-right3">
               <div className="home-category5">
-                <span className="home-text121">Soluções </span>
+                <span className="home-text113">Soluções </span>
                 <div className="home-links2">
-                  <span className="home-text122">Plano de negócios</span>
-                  <span className="home-text123">Vendas online</span>
-                  <span className="home-text124">Marketing</span>
-                  <span className="home-text125">Instagram shop</span>
-                  <span className="home-text126">Automatizar</span>
+                  <span className="home-text114">Plano de negócios</span>
+                  <span className="home-text115">Vendas online</span>
+                  <span className="home-text116">Marketing</span>
+                  <span className="home-text117">Instagram shop</span>
+                  <span className="home-text118">Automatizar</span>
                 </div>
               </div>
               <div className="home-category6">
-                <span className="home-text127">Empresa</span>
+                <span className="home-text119">Empresa</span>
                 <div className="home-links3">
-                  <span className="home-text128">Sobre</span>
-                  <span className="home-text129">Aplicativo</span>
-                  <span className="home-text130">Reclame aqui</span>
+                  <span className="home-text120">Sobre</span>
+                  <span className="home-text121">Aplicativo</span>
                   <a
                     href="https://www.reclameaqui.com.br/empresa/startpee/"
                     className="home-link2"
                   >
-                    Localização
+                    Reclame aqui
                   </a>
-                  <span className="home-text131">trabalhe aqui</span>
-                  <span className="home-text132">Fale conosco</span>
+                  <span className="home-text122">Localização</span>
+                  <span className="home-text123">trabalhe aqui</span>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=5511967272695"
+                    className="home-link3"
+                  >
+                    Fale conosco
+                  </a>
                 </div>
               </div>
               <div className="home-category7">
-                <span className="home-text133">Conteúdos </span>
+                <span className="home-text124">Conteúdos </span>
                 <div className="home-links4">
-                  <span className="home-text134">Youtube</span>
-                  <span className="home-text135">Linkedin</span>
+                  <span className="home-text125">Youtube</span>
                   <a
                     href="https://www.linkedin.com/company/startpee"
-                    className="home-link3"
-                  >
-                    Pinterest
-                  </a>
-                  <span className="home-text136">Instagram</span>
-                  <a
-                    href="https://www.instagram.com/appmeunegocio/"
                     className="home-link4"
                   >
-                    Facebook
+                    Linkedin
                   </a>
+                  <span className="home-text126">Pinterest</span>
+                  <a
+                    href="https://www.instagram.com/appmeunegocio/"
+                    className="home-link5"
+                  >
+                    Instagram
+                  </a>
+                  <span className="home-text127">Facebook</span>
                 </div>
               </div>
             </div>
@@ -769,7 +766,7 @@ Here's what the above is doing:
               src="/playground_assets/startpee-1200w.png"
               className="home-branding"
             />
-            <span className="home-text137">
+            <span className="home-text128">
               CNPJ 20.369.543/0001-98 São Paulo- SP
               <span
                 dangerouslySetInnerHTML={{
@@ -777,7 +774,7 @@ Here's what the above is doing:
                 }}
               />
             </span>
-            <span className="home-text138">Copyright © Startpee- 2023</span>
+            <span className="home-text129">Copyright © Startpee- 2023</span>
           </div>
         </footer>
       </div>
@@ -1673,7 +1670,7 @@ Here's what the above is doing:
             flex: 1;
             height: 461px;
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             padding-top: var(--dl-space-space-fiveunits);
             padding-left: var(--dl-space-space-threeunits);
             border-radius: 50px;
@@ -1686,6 +1683,7 @@ Here's what the above is doing:
           .home-text054 {
             font-size: 32px;
             font-style: normal;
+            text-align: center;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -1696,8 +1694,9 @@ Here's what the above is doing:
           }
           .home-get-started4 {
             align-self: center;
-            margin-top: var(--dl-space-space-sevenunits);
+            margin-top: 82px;
             transition: 0.3s;
+            margin-bottom: 36px;
           }
           .home-get-started4:hover {
             color: var(--dl-color-gray-white);
@@ -1714,7 +1713,7 @@ Here's what the above is doing:
             height: 463px;
             display: flex;
             position: relative;
-            align-items: flex-start;
+            align-items: center;
             padding-top: var(--dl-space-space-halfunit);
             padding-left: 40px;
             border-radius: 50px;
@@ -1727,7 +1726,8 @@ Here's what the above is doing:
           .home-text061 {
             font-size: 32px;
             font-style: normal;
-            margin-top: var(--dl-space-space-halfunit);
+            margin-top: var(--dl-space-space-fourunits);
+            text-align: center;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -1740,13 +1740,14 @@ Here's what the above is doing:
           .home-get-started5 {
             height: 56px;
             align-self: center;
+            margin-top: 78px;
             transition: 0.3s;
           }
           .home-get-started5:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text073 {
+          .home-text065 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
@@ -1756,24 +1757,26 @@ Here's what the above is doing:
             flex: 1;
             height: 463px;
             display: flex;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-fiveunits);
+            align-items: center;
+            padding-top: var(--dl-space-space-threeunits);
             padding-left: 40px;
             border-radius: 50px;
             padding-right: 40px;
             flex-direction: column;
-            padding-bottom: var(--dl-space-space-fiveunits);
+            padding-bottom: var(--dl-space-space-threeunits);
             justify-content: flex-start;
             background-color: #000000;
           }
-          .home-text076 {
+          .home-text068 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
+            margin-top: var(--dl-space-space-threeunits);
+            text-align: center;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text077 {
+          .home-text069 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1789,7 +1792,7 @@ Here's what the above is doing:
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text080 {
+          .home-text072 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1812,13 +1815,13 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .home-text083 {
+          .home-text075 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .home-text084 {
+          .home-text076 {
             text-align: left;
           }
           .home-right2 {
@@ -1836,7 +1839,7 @@ Here's what the above is doing:
             display: flex;
             flex-direction: column;
           }
-          .home-text085 {
+          .home-text077 {
             cursor: pointer;
             display: none;
           }
@@ -1867,11 +1870,11 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .home-text088 {
+          .home-text080 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .home-text089 {
+          .home-text081 {
             color: rgb(238, 233, 254);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -1879,7 +1882,7 @@ Here's what the above is doing:
           .home-get-started7 {
             margin-bottom: 0px;
           }
-          .home-text090 {
+          .home-text082 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1912,10 +1915,10 @@ Here's what the above is doing:
             user-select: none;
             flex-direction: column;
           }
-          .home-text093 {
+          .home-text085 {
             text-align: center;
           }
-          .home-text094 {
+          .home-text086 {
             color: rgb(0, 0, 0);
             width: 100%;
             display: none;
@@ -1938,14 +1941,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .home-text095 {
+          .home-text087 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .home-text096 {
+          .home-text088 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -1955,14 +1958,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .home-text097 {
+          .home-text089 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .home-text098 {
+          .home-text090 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -1972,14 +1975,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .home-text109 {
+          .home-text101 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .home-text110 {
+          .home-text102 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2019,7 +2022,7 @@ Here's what the above is doing:
             align-items: stretch;
             flex-direction: column;
           }
-          .home-text121 {
+          .home-text113 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -2032,24 +2035,24 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text122 {
+          .home-text114 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
           }
-          .home-text123 {
+          .home-text115 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-text124 {
+          .home-text116 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-text125 {
+          .home-text117 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-text126 {
+          .home-text118 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
@@ -2059,7 +2062,7 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text127 {
+          .home-text119 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -2068,19 +2071,16 @@ Here's what the above is doing:
           }
           .home-links3 {
             gap: var(--dl-space-space-unit);
+            height: 206px;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text128 {
+          .home-text120 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-text129 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text130 {
+          .home-text121 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
@@ -2089,20 +2089,25 @@ Here's what the above is doing:
             font-size: 14px;
             text-decoration: none;
           }
-          .home-text131 {
+          .home-text122 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-text132 {
+          .home-text123 {
             color: rgb(196, 196, 196);
             font-size: 14px;
+          }
+          .home-link3 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+            text-decoration: none;
           }
           .home-category7 {
             width: 240px;
             display: flex;
             flex-direction: column;
           }
-          .home-text133 {
+          .home-text124 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -2115,20 +2120,7 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text134 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-text135 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-link3 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-            text-decoration: none;
-          }
-          .home-text136 {
+          .home-text125 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
@@ -2136,6 +2128,19 @@ Here's what the above is doing:
             color: rgb(196, 196, 196);
             font-size: 14px;
             text-decoration: none;
+          }
+          .home-text126 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-link5 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+            text-decoration: none;
+          }
+          .home-text127 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
           }
           .home-bottom {
             width: 100%;
@@ -2153,12 +2158,12 @@ Here's what the above is doing:
             height: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text137 {
+          .home-text128 {
             color: rgb(104, 104, 104);
             font-size: 14px;
             line-height: 30px;
           }
-          .home-text138 {
+          .home-text129 {
             color: rgb(104, 104, 104);
             font-size: 14px;
             line-height: 30px;
@@ -2355,7 +2360,7 @@ Here's what the above is doing:
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .home-text084 {
+            .home-text076 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
@@ -2380,7 +2385,7 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text088 {
+            .home-text080 {
               font-size: 36px;
               line-height: 36px;
             }
@@ -2411,12 +2416,12 @@ Here's what the above is doing:
               width: 100%;
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .home-text137 {
+            .home-text128 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
             }
-            .home-text138 {
+            .home-text129 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -2680,7 +2685,7 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text076 {
+            .home-text068 {
               font-size: 28px;
             }
             .home-testimonals {
@@ -2695,7 +2700,7 @@ Here's what the above is doing:
             .home-column1 {
               display: none;
             }
-            .home-text085 {
+            .home-text077 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
@@ -2715,11 +2720,11 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text088 {
+            .home-text080 {
               font-size: 28px;
               text-align: left;
             }
-            .home-text090 {
+            .home-text082 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
@@ -2737,16 +2742,16 @@ Here's what the above is doing:
             .home-heading4 {
               width: 100%;
             }
-            .home-text093 {
+            .home-text085 {
               font-size: 36px;
               line-height: 36px;
             }
-            .home-text094 {
+            .home-text086 {
               width: 100%;
               max-width: 600p;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text098 {
+            .home-text090 {
               line-height: 24px;
             }
             .home-footer {
@@ -2849,7 +2854,15 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text098 {
+            .home-get-started7 {
+              align-self: center;
+              align-items: flex-end;
+              justify-content: center;
+            }
+            .home-text082 {
+              text-align: center;
+            }
+            .home-text090 {
               line-height: 24px;
             }
             .home-footer {
@@ -2859,12 +2872,12 @@ Here's what the above is doing:
             .home-branding {
               width: 100%;
             }
-            .home-text137 {
+            .home-text128 {
               color: rgb(104, 104, 104);
               font-size: 12px;
               line-height: 25px;
             }
-            .home-text138 {
+            .home-text129 {
               color: rgb(104, 104, 104);
               font-size: 12px;
               line-height: 25px;
