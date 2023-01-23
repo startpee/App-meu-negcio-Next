@@ -116,12 +116,11 @@ closeButton.addEventListener("click", function() {
               Gerenciar o próprio negócio se tornou muito mais fácil 
             </p>
           </header>
-          <div className="home-dashboard-preview">
-            <iframe
-              src="https://www.youtube.com/embed/tk6ZiAca-8Y"
-              className="home-iframe"
-            ></iframe>
-          </div>
+          <iframe
+            src="https://www.youtube.com/embed/tk6ZiAca-8Y"
+            className="home-iframe"
+          ></iframe>
+          <div className="home-dashboard-preview"></div>
         </section>
         <div className="home-div">
           <DangerousHTML
@@ -977,9 +976,16 @@ Here's what the above is doing:
             text-align: center;
             line-height: 30px;
           }
+          .home-iframe {
+            width: 705px;
+            height: 349px;
+            margin-top: var(--dl-space-space-unit);
+            margin-bottom: var(--dl-space-space-fourunits);
+          }
           .home-dashboard-preview {
             top: 550px;
             left: 231px;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             position: absolute;
             align-items: center;
@@ -988,12 +994,6 @@ Here's what the above is doing:
             border-radius: 100px;
             flex-direction: column;
             background-color: #775cfc;
-          }
-          .home-iframe {
-            width: 705px;
-            height: 349px;
-            margin-top: var(--dl-space-space-unit);
-            margin-bottom: var(--dl-space-space-fourunits);
           }
           .home-div {
             width: 100%;
@@ -2807,15 +2807,17 @@ Here's what the above is doing:
             .home-text005 {
               color: #eee9fe;
             }
-            .home-dashboard-preview {
-              left: 32px;
-              bottom: -307px;
-              height: 756px;
-              border-width: 0px;
-            }
             .home-iframe {
               width: 385px;
               height: 291px;
+            }
+            .home-dashboard-preview {
+              left: 32px;
+              bottom: -307px;
+              height: 564px;
+              display: none;
+              border-width: 0px;
+              padding-bottom: 118px;
             }
             .home-features {
               padding-top: 200px;
