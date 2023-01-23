@@ -108,7 +108,7 @@ closeButton.addEventListener("click", function() {
           </header>
           <div className="home-dashboard-preview">
             <iframe
-              src="https://www.youtube.com/embed/DeQkMK5LME4"
+              src="https://www.youtube.com/embed/tk6ZiAca-8Y"
               className="home-iframe"
             ></iframe>
           </div>
@@ -755,8 +755,14 @@ Here's what the above is doing:
               className="home-branding"
             />
             <span className="home-text140">
-              Copyright © App meu negócio - 2022
+              CNPJ 20.369.543/0001-98 São Paulo- SP
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
             </span>
+            <span className="home-text141">Copyright © Startpee- 2023</span>
           </div>
         </footer>
       </div>
@@ -2130,7 +2136,12 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-text140 {
-            color: #686868;
+            color: rgb(104, 104, 104);
+            font-size: 14px;
+            line-height: 30px;
+          }
+          .home-text141 {
+            color: rgb(104, 104, 104);
             font-size: 14px;
             line-height: 30px;
           }
@@ -2383,6 +2394,11 @@ Here's what the above is doing:
               margin-bottom: var(--dl-space-space-halfunit);
             }
             .home-text140 {
+              font-size: 12px;
+              line-height: 25px;
+              margin-bottom: 0px;
+            }
+            .home-text141 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -2826,6 +2842,11 @@ Here's what the above is doing:
               width: 100%;
             }
             .home-text140 {
+              color: rgb(104, 104, 104);
+              font-size: 12px;
+              line-height: 25px;
+            }
+            .home-text141 {
               color: rgb(104, 104, 104);
               font-size: 12px;
               line-height: 25px;
