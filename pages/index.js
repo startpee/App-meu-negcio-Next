@@ -121,13 +121,13 @@ closeButton.addEventListener("click", function() {
               src="https://www.youtube.com/embed/tk6ZiAca-8Y"
               className="home-iframe"
             ></iframe>
-            <div className="home-div">
-              <DangerousHTML
-                html={`<storifyme-collection url="https://stories.storifyme.com/widgets/g-francisco-junior-70482/widget/custom/6913"></storifyme-collection>`}
-              ></DangerousHTML>
-            </div>
           </div>
         </section>
+        <div className="home-div">
+          <DangerousHTML
+            html={`<storifyme-collection url="https://stories.storifyme.com/widgets/g-francisco-junior-70482/widget/custom/6913"></storifyme-collection>`}
+          ></DangerousHTML>
+        </div>
         <section className="home-features">
           <div className="home-title">
             <span className="home-text006">
