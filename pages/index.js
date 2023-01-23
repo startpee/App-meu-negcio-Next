@@ -121,6 +121,11 @@ closeButton.addEventListener("click", function() {
               src="https://www.youtube.com/embed/tk6ZiAca-8Y"
               className="home-iframe"
             ></iframe>
+            <div className="home-div">
+              <DangerousHTML
+                html={`<storifyme-collection url="https://stories.storifyme.com/widgets/g-francisco-junior-70482/widget/custom/6913"></storifyme-collection>`}
+              ></DangerousHTML>
+            </div>
           </div>
         </section>
         <section className="home-features">
@@ -989,6 +994,10 @@ Here's what the above is doing:
             height: 349px;
             margin-top: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-fourunits);
+          }
+          .home-div {
+            width: 100%;
+            height: 100%;
           }
           .home-features {
             width: 100%;

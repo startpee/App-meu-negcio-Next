@@ -39,7 +39,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><style>\n  body::-webkit-scrollbar {\n    width: 0.5em;\n    z-index: 100;\n    background-color:transparent;\n  }\n  \n\n body::-webkit-scrollbar-thumb {\n    background-color:white;\n    box-shadow:0 -100vh 0 100vh #5128f5;//magic\n  }\n</style>\n<noscript>',
+                '</noscript><style>\n  body::-webkit-scrollbar {\n    width: 0.5em;\n    z-index: 100;\n    background-color:transparent;\n  }\n  \n\n body::-webkit-scrollbar-thumb {\n    background-color:white;\n    box-shadow:0 -100vh 0 100vh #5128f5;//magic\n  }\n</style>\n<!-- StorifyMe scripts -->\n      <script type="text/javascript" src="https://cdn.storifyme.com/static/web-components/storifyme-elements.min.js"></script>\n<noscript>',
             }}
           ></noscript>
         </Head>
