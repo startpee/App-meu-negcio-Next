@@ -2891,6 +2891,9 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
+            .home-right3 {
+              align-self: center;
+            }
             .home-branding {
               width: 100%;
             }
