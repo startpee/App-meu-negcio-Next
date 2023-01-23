@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 class CustomDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="pt-br">
         <Head>
           <meta
             name="viewport"
@@ -26,6 +26,12 @@ class CustomDocument extends Document {
             data-tag="default-style-sheet"
           ></style>
           <link
+            rel="shortcut icon"
+            href="/playground_assets/startpee1.png"
+            type="icon/png"
+            sizes="32x32"
+          ></link>
+          <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
             data-tag="font"
@@ -33,7 +39,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                "</noscript><style>\n  body::-webkit-scrollbar {\n    width: 0.5em;\n    z-index: 100;\n    background-color:transparent;\n  }\n  \n\n body::-webkit-scrollbar-thumb {\n    background-color:white;\n    box-shadow:0 -100vh 0 100vh #5128f5;//magic\n  }\n</style>\n<script>\nwindow.addEventListener('mouseover', initLandbot, { once: true });\nwindow.addEventListener('touchstart', initLandbot, { once: true });\nvar myLandbot;\nfunction initLandbot() {\n  if (!myLandbot) {\n    var s = document.createElement('script');s.type = 'text/javascript';s.async = true;\n    s.addEventListener('load', function() {\n      var myLandbot = new Landbot.Livechat({\n        configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1382194-D7SJO1Z7SNH7WUTD/index.json',\n      });\n    });\n    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';\n    var x = document.getElementsByTagName('script')[0];\n    x.parentNode.insertBefore(s, x);\n  }\n}\n</script><noscript>",
+                '</noscript><style>\n  body::-webkit-scrollbar {\n    width: 0.5em;\n    z-index: 100;\n    background-color:transparent;\n  }\n  \n\n body::-webkit-scrollbar-thumb {\n    background-color:white;\n    box-shadow:0 -100vh 0 100vh #5128f5;//magic\n  }\n</style>\n<noscript>',
             }}
           ></noscript>
         </Head>

@@ -12,8 +12,16 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>App meu negócio</title>
-          <meta property="og:title" content="App meu negócio" />
+          <title>Startpee</title>
+          <meta
+            name="description"
+            content="Somos uma startup desenvolvedora de novos negócios"
+          />
+          <meta property="og:title" content="Startpee" />
+          <meta
+            property="og:description"
+            content="Somos uma startup desenvolvedora de novos negócios"
+          />
         </Head>
         <section className="home-hero">
           <div className="home-menu">
