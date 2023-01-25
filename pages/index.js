@@ -55,7 +55,9 @@ const Home = (props) => {
                       Soluções
                     </a>
                     <a
-                      href="https://api.whatsapp.com/send?phone=5511967272695"
+                      href="https://api.whatsapp.com/send?phone=5511993619129"
+                      target="_blank"
+                      rel="noreferrer noopener"
                       className="home-link1 Link"
                     >
                       Fale conosco
@@ -2892,7 +2894,7 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-unit);
             }
             .home-right3 {
-              align-self: center;
+              align-self: stretch;
             }
             .home-branding {
               width: 100%;
