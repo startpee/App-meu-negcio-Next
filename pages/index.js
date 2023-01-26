@@ -22,6 +22,10 @@ const Home = (props) => {
             property="og:description"
             content="Somos uma startup desenvolvedora de novos negócios"
           />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/db3eb164-debe-4ab3-9f10-ac025b773942/73f729d7-91dd-4017-818e-368aee5329a4?org_if_sml=1"
+          />
         </Head>
         <section className="home-hero">
           <div className="home-menu">
