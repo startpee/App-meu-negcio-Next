@@ -32,7 +32,7 @@ const Home = (props) => {
             <div id="mobile-menu" className="home-mobile-navigation">
               <img
                 alt="pastedImage"
-                src="/playground_assets/pastedimage-no9b-1500h.png"
+                src="/playground_assets/startpee-1200w.png"
                 className="home-logo"
               />
               <div className="home-links">
