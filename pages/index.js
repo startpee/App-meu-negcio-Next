@@ -392,7 +392,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="home-category2">
               <div className="home-headng">
-                <span className="home-text045">1 — Escolher um serviço</span>
+                <span className="home-text045">1 . Escolher um serviço</span>
                 <span className="home-text046">
                   Plano de negócios, Marketing, Vendas online
                 </span>
@@ -408,7 +408,7 @@ closeButton.addEventListener("click", function() {
             <div className="home-row">
               <div className="home-category3">
                 <div className="home-headng1">
-                  <span className="home-text047">2 — reunião </span>
+                  <span className="home-text047">2 . reunião </span>
                   <span className="home-text048">
                     <span>
                       essa conversa é importante para entender as suas
@@ -420,7 +420,7 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="home-category4">
                 <div className="home-headng2">
-                  <span className="home-text051">3— Proposta</span>
+                  <span className="home-text051">3 . Proposta</span>
                   <span className="home-text052">
                     Apartir da conversa criamos uma proposta de serviço de
                     acordo com a sua realidade.
@@ -2345,6 +2345,7 @@ Here's what the above is doing:
               flex-direction: column;
             }
             .home-headng {
+              align-self: center;
               margin-left: var(--dl-space-space-fourunits);
             }
             .home-container8 {
@@ -2695,6 +2696,7 @@ Here's what the above is doing:
               margin-bottom: 0px;
             }
             .home-headng {
+              align-self: center;
               padding-bottom: 0px;
             }
             .home-container8 {
@@ -2703,6 +2705,20 @@ Here's what the above is doing:
             .home-row {
               height: auto;
               flex-direction: column;
+            }
+            .home-headng1 {
+              height: 185px;
+              align-self: center;
+            }
+            .home-headng2 {
+              align-self: center;
+              margin-bottom: 30px;
+            }
+            .home-text051 {
+              color: rgb(255, 255, 255);
+              font-size: 27px;
+              font-style: normal;
+              font-weight: 700;
             }
             .home-get-started3 {
               display: none;
@@ -2882,6 +2898,27 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
+            }
+            .home-text045 {
+              font-size: 27px;
+            }
+            .home-headng1 {
+              height: 226px;
+            }
+            .home-text047 {
+              color: rgb(0, 0, 0);
+              font-size: 27px;
+              font-style: normal;
+              font-weight: 700;
+            }
+            .home-headng2 {
+              margin-bottom: var(--dl-space-space-twounits);
+            }
+            .home-text051 {
+              color: rgb(255, 255, 255);
+              font-size: 27px;
+              font-style: normal;
+              font-weight: 700;
             }
             .home-pricing {
               padding-left: var(--dl-space-space-oneandhalfunits);
