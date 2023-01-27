@@ -128,9 +128,9 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
           <header className="home-header">
-            <h1 className="home-text005">Esteja no controle do seu negócio</h1>
+            <h1 className="home-text005">Nosso diferencial </h1>
             <p className="home-text006">
-              Gerenciar o próprio negócio se tornou muito mais fácil 
+              Se você não tem dinheiro podemos mesmo assim te ajudar
             </p>
           </header>
           <iframe
@@ -2848,8 +2848,17 @@ Here's what the above is doing:
             .home-header {
               height: 203px;
             }
+            .home-text005 {
+              color: rgb(255, 255, 255);
+              font-size: 32px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 36px;
+            }
             .home-text006 {
-              color: #eee9fe;
+              color: rgb(238, 233, 254);
+              width: 343px;
+              padding-right: 39px;
             }
             .home-iframe {
               right: -328px;
