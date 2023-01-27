@@ -219,11 +219,6 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <div className="home-div">
-          <DangerousHTML
-            html={`<storifyme-collection url="https://stories.storifyme.com/widgets/g-francisco-junior-70482/widget/custom/6913"></storifyme-collection>`}
-          ></DangerousHTML>
-        </div>
         <section className="home-quote-container">
           <div className="home-quote">
             <span className="home-message">
@@ -1130,10 +1125,6 @@ Here's what the above is doing:
           }
           .home-text021 {
             line-height: 24px;
-          }
-          .home-div {
-            width: 100%;
-            height: 100%;
           }
           .home-quote-container {
             width: 100%;
