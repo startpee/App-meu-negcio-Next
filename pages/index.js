@@ -2897,7 +2897,7 @@ Here's what the above is doing:
               margin-bottom: 0px;
             }
             .home-quote1 {
-              color: rgb(151, 126, 249);
+              color: var(--dl-color-gray-900);
               font-size: 14px;
             }
             .home-text022 {
