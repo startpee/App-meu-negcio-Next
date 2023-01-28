@@ -460,7 +460,9 @@ closeButton.addEventListener("click", function() {
               <div className="home-card1">
                 <span className="home-text061">Plano de negócios</span>
                 <span className="home-text062">
-                  <span>Planejamento Completo</span>
+                  <span>
+                    Te ajuda a conseguir um investidor para seu negócio
+                  </span>
                   <br></br>
                 </span>
                 <div className="home-get-started5 template-button">
@@ -1805,7 +1807,7 @@ Here's what the above is doing:
           .home-get-started5 {
             height: 56px;
             align-self: center;
-            margin-top: 103px;
+            margin-top: 58px;
             transition: 0.3s;
           }
           .home-get-started5:hover {
