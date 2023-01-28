@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import DangerousHTML from 'dangerous-html/react'
@@ -70,9 +71,9 @@ const ECommerce = (props) => {
                     className="e-commerce-logo1"
                   />
                   <div className="e-commerce-links1">
-                    <a href="#servi" className="e-commerce-link2 Link">
-                      Soluções
-                    </a>
+                    <Link href="/">
+                      <a className="e-commerce-link2 Link">Inicio</a>
+                    </Link>
                     <a
                       href="https://api.whatsapp.com/send?phone=5511967272695"
                       className="e-commerce-link3 Link"
@@ -131,7 +132,9 @@ closeButton.addEventListener("click", function() {
           </div>
           <header className="e-commerce-header">
             <h1 className="e-commerce-text05">E-commerce</h1>
-            <p className="e-commerce-text06">plataformas de vendas em geral</p>
+            <p className="e-commerce-text06">
+              Não dependa mais de plataformas vendas
+            </p>
           </header>
           <iframe
             src="https://www.youtube.com/embed/tk6ZiAca-8Y"

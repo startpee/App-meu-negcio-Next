@@ -131,7 +131,10 @@ closeButton.addEventListener("click", function() {
           </div>
           <header className="marketing-header">
             <h1 className="marketing-text05">Marketing</h1>
-            <p className="marketing-text06">entenda como funciona </p>
+            <p className="marketing-text06">
+              {' '}
+              não precisa pagar nenhum gestor de tráfego 
+            </p>
           </header>
           <iframe
             src="https://www.youtube.com/embed/tk6ZiAca-8Y"
