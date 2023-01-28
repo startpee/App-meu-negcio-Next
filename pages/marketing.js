@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import DangerousHTML from 'dangerous-html/react'
@@ -70,9 +71,9 @@ const Marketing = (props) => {
                     className="marketing-logo1"
                   />
                   <div className="marketing-links1">
-                    <a href="#servi" className="marketing-link2 Link">
-                      Soluções
-                    </a>
+                    <Link href="/">
+                      <a className="marketing-link2 Link">Inicio</a>
+                    </Link>
                     <a
                       href="https://api.whatsapp.com/send?phone=5511967272695"
                       className="marketing-link3 Link"

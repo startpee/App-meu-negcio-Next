@@ -752,52 +752,62 @@ Here's what the above is doing:
               <div className="home-category5">
                 <span className="home-text116">Soluções </span>
                 <div className="home-links2">
-                  <span className="home-text117">Plano de negócios</span>
-                  <span className="home-text118">Vendas online</span>
-                  <span className="home-text119">Marketing</span>
-                  <span className="home-text120">Instagram shop</span>
-                  <span className="home-text121">Automatizar</span>
+                  <Link href="/plano-de-negocio">
+                    <a className="home-link08">Plano de negócios</a>
+                  </Link>
+                  <Link href="/e-commerce">
+                    <a className="home-link09">Vendas online</a>
+                  </Link>
+                  <Link href="/marketing">
+                    <a className="home-link10">Marketing</a>
+                  </Link>
+                  <Link href="/instagram-shop">
+                    <a className="home-link11">Instagram shop</a>
+                  </Link>
+                  <Link href="/automatizar">
+                    <a className="home-link12">Automatizar</a>
+                  </Link>
                 </div>
               </div>
               <div className="home-category6">
-                <span className="home-text122">Empresa</span>
+                <span className="home-text117">Empresa</span>
                 <div className="home-links3">
-                  <span className="home-text123">Sobre</span>
-                  <span className="home-text124">Aplicativo</span>
+                  <span className="home-text118">Sobre</span>
+                  <span className="home-text119">Aplicativo</span>
                   <a
                     href="https://www.reclameaqui.com.br/empresa/startpee/"
-                    className="home-link08"
+                    className="home-link13"
                   >
                     Reclame aqui
                   </a>
-                  <span className="home-text125">Localização</span>
-                  <span className="home-text126">trabalhe aqui</span>
+                  <span className="home-text120">Localização</span>
+                  <span className="home-text121">trabalhe aqui</span>
                   <a
                     href="https://api.whatsapp.com/send?phone=5511967272695"
-                    className="home-link09"
+                    className="home-link14"
                   >
                     Fale conosco
                   </a>
                 </div>
               </div>
               <div className="home-category7">
-                <span className="home-text127">Conteúdos </span>
+                <span className="home-text122">Conteúdos </span>
                 <div className="home-links4">
-                  <span className="home-text128">Youtube</span>
+                  <span className="home-text123">Youtube</span>
                   <a
                     href="https://www.linkedin.com/company/startpee"
-                    className="home-link10"
+                    className="home-link15"
                   >
                     Linkedin
                   </a>
-                  <span className="home-text129">Pinterest</span>
+                  <span className="home-text124">Pinterest</span>
                   <a
                     href="https://www.instagram.com/appmeunegocio/"
-                    className="home-link11"
+                    className="home-link16"
                   >
                     Instagram
                   </a>
-                  <span className="home-text130">Facebook</span>
+                  <span className="home-text125">Facebook</span>
                 </div>
               </div>
             </div>
@@ -808,7 +818,7 @@ Here's what the above is doing:
               src="/playground_assets/startpee-1200w.png"
               className="home-branding"
             />
-            <span className="home-text131">
+            <span className="home-text126">
               CNPJ 20.369.543/0001-98 São Paulo- SP
               <span
                 dangerouslySetInnerHTML={{
@@ -816,7 +826,7 @@ Here's what the above is doing:
                 }}
               />
             </span>
-            <span className="home-text132">Copyright © Startpee- 2023</span>
+            <span className="home-text127">Copyright © Startpee- 2023</span>
           </div>
         </footer>
       </div>
@@ -2115,26 +2125,31 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text117 {
+          .home-link08 {
             color: rgb(196, 196, 196);
             cursor: pointer;
             font-size: 14px;
+            text-decoration: none;
           }
-          .home-text118 {
+          .home-link09 {
             color: rgb(196, 196, 196);
             font-size: 14px;
+            text-decoration: none;
           }
-          .home-text119 {
+          .home-link10 {
             color: rgb(196, 196, 196);
             font-size: 14px;
+            text-decoration: none;
           }
-          .home-text120 {
+          .home-link11 {
             color: rgb(196, 196, 196);
             font-size: 14px;
+            text-decoration: none;
           }
-          .home-text121 {
+          .home-link12 {
             color: rgb(196, 196, 196);
             font-size: 14px;
+            text-decoration: none;
           }
           .home-category6 {
             width: 240px;
@@ -2142,7 +2157,7 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text122 {
+          .home-text117 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -2156,28 +2171,28 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text123 {
+          .home-text118 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-text124 {
+          .home-text119 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-link08 {
+          .home-link13 {
             color: rgb(196, 196, 196);
             font-size: 14px;
             text-decoration: none;
           }
-          .home-text125 {
+          .home-text120 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-text126 {
+          .home-text121 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-link09 {
+          .home-link14 {
             color: rgb(196, 196, 196);
             font-size: 14px;
             text-decoration: none;
@@ -2187,7 +2202,7 @@ Here's what the above is doing:
             display: flex;
             flex-direction: column;
           }
-          .home-text127 {
+          .home-text122 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -2200,25 +2215,25 @@ Here's what the above is doing:
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text128 {
+          .home-text123 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
-          .home-link10 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-            text-decoration: none;
-          }
-          .home-text129 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .home-link11 {
+          .home-link15 {
             color: rgb(196, 196, 196);
             font-size: 14px;
             text-decoration: none;
           }
-          .home-text130 {
+          .home-text124 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .home-link16 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+            text-decoration: none;
+          }
+          .home-text125 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
@@ -2238,12 +2253,12 @@ Here's what the above is doing:
             height: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text131 {
+          .home-text126 {
             color: var(--dl-color-gray-900);
             font-size: 14px;
             line-height: 30px;
           }
-          .home-text132 {
+          .home-text127 {
             color: rgb(104, 104, 104);
             font-size: 14px;
             line-height: 30px;
@@ -2496,12 +2511,12 @@ Here's what the above is doing:
               width: 100%;
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .home-text131 {
+            .home-text126 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
             }
-            .home-text132 {
+            .home-text127 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -3003,12 +3018,12 @@ Here's what the above is doing:
             .home-branding {
               width: 100%;
             }
-            .home-text131 {
+            .home-text126 {
               color: rgb(104, 104, 104);
               font-size: 12px;
               line-height: 25px;
             }
-            .home-text132 {
+            .home-text127 {
               color: rgb(104, 104, 104);
               font-size: 12px;
               line-height: 25px;

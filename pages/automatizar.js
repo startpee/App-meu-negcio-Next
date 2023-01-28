@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import DangerousHTML from 'dangerous-html/react'
@@ -70,9 +71,9 @@ const Automatizar = (props) => {
                     className="automatizar-logo1"
                   />
                   <div className="automatizar-links1">
-                    <a href="#servi" className="automatizar-link2 Link">
-                      Soluções
-                    </a>
+                    <Link href="/">
+                      <a className="automatizar-link2 Link">inicio</a>
+                    </Link>
                     <a
                       href="https://api.whatsapp.com/send?phone=5511967272695"
                       className="automatizar-link3 Link"
