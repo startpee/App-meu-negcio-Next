@@ -1862,7 +1862,6 @@ Here's what the above is doing:
           .home-get-started6 {
             color: var(--dl-color-gray-black);
             align-self: center;
-            margin-top: var(--dl-space-space-sevenunits);
             transition: 0.3s;
             text-decoration: none;
             background-color: #ffffff;
