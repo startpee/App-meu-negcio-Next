@@ -1805,7 +1805,7 @@ Here's what the above is doing:
           .home-get-started5 {
             height: 56px;
             align-self: center;
-            margin-top: 78px;
+            margin-top: 103px;
             transition: 0.3s;
           }
           .home-get-started5:hover {
