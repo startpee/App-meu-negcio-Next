@@ -460,9 +460,7 @@ closeButton.addEventListener("click", function() {
               <div className="home-card1">
                 <span className="home-text061">Plano de negócios</span>
                 <span className="home-text062">
-                  <span>
-                    Te ajuda a conseguir um investidor para seu negócio
-                  </span>
+                  <span>Descubra o ponto fraco da concorrência</span>
                   <br></br>
                 </span>
                 <div className="home-get-started5 template-button">
@@ -2888,6 +2886,9 @@ Here's what the above is doing:
             .home-logo {
               margin-left: 0px;
             }
+            .home-links {
+              margin-top: var(--dl-space-space-oneandhalfunits);
+            }
             .home-icon {
               align-items: center;
               justify-content: center;
@@ -2962,7 +2963,7 @@ Here's what the above is doing:
               font-size: 27px;
             }
             .home-headng1 {
-              height: 226px;
+              height: 307px;
             }
             .home-text047 {
               color: rgb(0, 0, 0);
@@ -2985,6 +2986,7 @@ Here's what the above is doing:
             }
             .home-text062 {
               color: rgb(0, 0, 0);
+              line-height: 24px;
             }
             .home-get-started6 {
               background-color: var(--dl-color-gray-white);
